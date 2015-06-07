@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/toggle_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Visibility" />
+
+    <Button
+        android:id="@+id/toggle_home_as_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY_HOME_AS_UP" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/toggle_show_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DISPLAY_SHOW_HOME" />
+
+        <Button
+            android:id="@+id/toggle_use_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DISPLAY_USE_LOGO"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/toggle_show_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY_SHOW_TITLE" />
+
+    <Button android:id="@+id/toggle_show_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY_SHOW_CUSTOM" />
+
+    <Button android:id="@+id/cycle_custom_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cycle Custom View Gravity" />
+</LinearLayout>
