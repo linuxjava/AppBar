@@ -23,6 +23,8 @@
         <activity android:name=".ActionBarMenu" />
         <activity android:name=".ActionBarTabsActivity"
             android:theme="@style/Theme.Custom"/>
+        <activity android:name=".ActionBarWithDrawerLayout" />
+        <activity android:name=".PaletteActivity" />
     </application>
 
 </manifest>

@@ -17,4 +17,9 @@
     <string name="action_bar_sort_alpha">Alphabetically</string>
     <string name="action_bar_sort_size">By size</string>
     <string name="action_bar_settings">Settings</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <!-- Description of the icon that closes the navigation drawer, used by accessibility. -->
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>

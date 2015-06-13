@@ -34,4 +34,12 @@ public class MainActivity extends ActionBarActivity {
         startActivity(new Intent(this, ActionBarMenu.class));
     }
 
+    public void onActionBarWithDrawerLayout(View v){
+        startActivity(new Intent(this, ActionBarWithDrawerLayout.class));
+    }
+
+    public void onPaletteActivity(View v){
+        startActivity(new Intent(this, PaletteActivity.class));
+    }
+
 }
